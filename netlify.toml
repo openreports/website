@@ -1,6 +1,6 @@
 [build]
-  command = "hugo"
   publish = "public"
+  command = "npm install --save-dev autoprefixer && npm install --save-dev postcss-cli && npm install -D postcss && hugo --gc --minify --baseURL https://openreports.io/"
 
 [context.production.environment]
 HUGO_VERSION = "0.133.1"
