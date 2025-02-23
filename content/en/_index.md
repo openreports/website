@@ -29,7 +29,7 @@ linkTitle: "OpenReports"
 <br/>
 
 <h2>
-OpenReports provides an API and tools and managing reports in Kubernetes.
+OpenReports provides an API and tools for managing reports in Kubernetes.
 </h2>
 <br/>
 
