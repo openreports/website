@@ -6,11 +6,6 @@
   url = "#about"
 
 [[main]]
-  name = "Documentation"
-  weight = 200
-  url = "/docs"
-
-[[main]]
   name = "Community"
   weight = 300
   url = "#community"
