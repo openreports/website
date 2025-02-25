@@ -5,10 +5,11 @@ linkTitle: "OpenReports"
 
 {{< blocks/cover title="" image_anchor="top" height="full" color="dark" >}}
 
-![OpenReports](/images/OpenReports-Horizontal.png)
+<img src="/images/OpenReports-Horizontal.png" alt="OpenReports" style="max-width: 800px; width: 100%; height: auto;">
+
 <br/>
 <br/>
-# Standardized Reporting For Kubernetes { class="text-center" }
+<H1>Standardized Reporting For Kubernetes</H1>
 
 <div class="mt-5 mx-auto">
 	<a class="btn btn-lg btn-primary mr-3 mb-4" href="#about">
@@ -33,7 +34,7 @@ OpenReports provides an API and tools for managing reports in Kubernetes.
 <br/>
 
 <p style="line-height:1.5">
- OpenReports allows any Kubernetes controller, policy engine, or scanner can produce reports as a Kubernetes custom resource. Reports can then be consumed via kubectl, the OpenReports dashboard, or any other Kubernetes client. For high performance in large clusters, reports can be offloaded from etcd to a reporting database.
+ OpenReports allows any Kubernetes controller, policy engine, or scanner to produce reports as a Kubernetes custom resource. Reports can then be consumed via kubectl, the OpenReports dashboard, or any other Kubernetes client. For high performance in large clusters, reports can be offloaded from etcd to a reporting database.
 </p>
 
 <br/>
@@ -59,8 +60,7 @@ OpenReports provides an API and tools for managing reports in Kubernetes.
 <br/>
 
 <H3>
-The reports API was originally developed by the Kubernetes Policy Working Group to enable reporting from policy engines.
-Join the community to get the latest news, ask questions, and contribute to the project.
+The reports API was originally developed by the <a href="https://github.com/kubernetes/community/blob/master/wg-policy/README.md" target="_blank">Kubernetes Policy Working Group</a> to enable standardized reporting across policy engines. Join the community to get the latest news, ask questions, and contribute to the project.
 </H3>
 
 <br/>
@@ -80,12 +80,37 @@ From leaders in the cloud native ecosystem
 <br/>
 <br/>
 
-<div style="display: flex; justify-content: center; width: 100%; max-width: 1200px; margin: 0 auto;">
+<div style="display: flex; justify-content: center; width: 100%; margin: 0 auto;">
 {{% cardpane %}}
 
 {{% card header="" title="" subtitle="" footer="<a href='https://www.fairwinds.com' target='_blank'>Fairwinds</a>" %}}
 <div style="height: 150px; display: flex; align-items: center; justify-content: center; min-width: 200px;">
     <img src="/images/fairwinds.svg" alt="Fairwinds" style="max-height: 100%; max-width: 100%; object-fit: contain;">
+</div>
+{{% /card %}}
+
+{{% card header="" title="" subtitle="" footer="<a href='https://github.com/kubernetes/community/blob/master/wg-policy/README.md' target='_blank'>K8s Policy WG</a>" %}}
+<div style="height: 150px; display: flex; align-items: center; justify-content: center; min-width: 200px;">
+    <img src="/images/kubernetes.svg" alt="Policy WG" style="max-height: 100%; max-width: 100%; object-fit: contain;">
+</div>
+{{% /card %}}
+
+{{% card header="" title="" subtitle="" footer="<a href='https://kubewarden.io' target='_blank'>Kubewarden</a>" %}}
+<div style="height: 150px; display: flex; align-items: center; justify-content: center; min-width: 200px;">
+    <img src="/images/kubewarden.svg" alt="Kubewarden" style="max-height: 100%; max-width: 100%; object-fit: contain;">
+</div>
+{{% /card %}}
+
+{{% /cardpane %}}
+</div>
+
+
+<div style="display: flex; justify-content: center; width: 100%; margin: 0 auto;">
+{{% cardpane %}}
+
+{{% card header="" title="" subtitle="" footer="<a href='https://kyverno.io' target='_blank'>Kyverno</a>" %}}
+<div style="height: 150px; display: flex; align-items: center; justify-content: center; min-width: 200px;">
+    <img src="/images/kyverno.svg" alt="Kyverno" style="max-height: 100%; max-width: 100%; object-fit: contain;">
 </div>
 {{% /card %}}
 
