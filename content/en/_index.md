@@ -42,13 +42,16 @@ OpenReports provides an API and tools for managing reports in Kubernetes.
 
 {{% blocks/section color="dark" type="row" %}}
 
-{{% blocks/feature icon="fas fa-code" title="Reports API" url="docs/api/" %}}
+{{% blocks/feature icon="fas fa-code" title="Reports API" %}}
+<a href="https://github.com/openreports/reports-api/blob/main/docs/api-docs.md" target="_blank">Reference Documentation</a>
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fas fa-arrow-right" title="Report Producers" url="docs/producers/" %}}
+{{% blocks/feature icon="fas fa-arrow-right" title="Report Producers" %}}
+<a href="https://github.com/openreports/reports-api/blob/main/README.md#producers" target="_blank">View Producers</a>
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fas fa-arrow-left" title="Report Consumers" url="docs/consumers/" %}}
+{{% blocks/feature icon="fas fa-arrow-left" title="Report Consumers" %}}
+<a href="https://github.com/openreports/reports-api/blob/main/README.md#consumers" target="_blank">View Consumers</a>
 {{% /blocks/feature %}}
 
 {{% /blocks/section %}}
@@ -58,9 +61,17 @@ OpenReports provides an API and tools for managing reports in Kubernetes.
 # Community { class="text-center" }
 <br/>
 <br/>
-
+<br/>
+<br/>
 <H3>
-The reports API was originally developed by the <a href="https://github.com/kubernetes/community/blob/master/wg-policy/README.md" target="_blank">Kubernetes Policy Working Group</a> to enable standardized reporting across policy engines. Join the community to get the latest news, ask questions, and contribute to the project.
+The OpenReports project is a collaborative effort from multiple CNCF projects and ecosystem companies.
+
+The Reports API was originally developed by the <a href="https://github.com/kubernetes/community/blob/master/wg-policy/README.md" target="_blank">Kubernetes Policy Working Group</a> 
+to enable standardized reporting across policy engines. 
+
+Join the community to get the latest news, ask questions, and contribute to the project. 
+You can find us at the [#openreports channnel in the CNCF Slack workspace](https://cloud-native.slack.com/archives/C08JH5223A6) 
+or on [GitHub](https://github.com/openreports).
 </H3>
 
 <br/>
