@@ -47,11 +47,11 @@ OpenReports provides an API and tools for managing reports in Kubernetes.
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fas fa-arrow-right" title="Report Producers" %}}
-<a href="https://github.com/openreports/reports-api/blob/main/README.md#producers" target="_blank">View Producers</a>
+<a href="https://github.com/openreports/reports-api/blob/main/README.md#report-producers" target="_blank">View Producers</a>
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fas fa-arrow-left" title="Report Consumers" %}}
-<a href="https://github.com/openreports/reports-api/blob/main/README.md#consumers" target="_blank">View Consumers</a>
+<a href="https://github.com/openreports/reports-api/blob/main/README.md#report-consumers" target="_blank">View Consumers</a>
 {{% /blocks/feature %}}
 
 {{% /blocks/section %}}
