@@ -40,23 +40,28 @@ OpenReports provides an API and tools for managing reports in Kubernetes.
  OpenReports allows any Kubernetes controller, policy engine, or scanner to produce reports as a Kubernetes custom resource. Reports can then be consumed via kubectl, the OpenReports dashboard, or any other Kubernetes client. For high performance in large clusters, reports can be offloaded from etcd to a reporting database using an API aggregation service.
 </p>
 
+<div class="mt-5 mx-auto">
+    <a class="btn btn-lg btn-primary mr-3 mb-4" href="docs/api/">
+        API Definition <i class="fa fa-arrow-alt-circle-right ml-2 "></i>
+    </a>
+</div>
+
 <br/>
 {{% /blocks/lead %}}
 
 {{% blocks/section color="dark" type="row" %}}
 
-{{% blocks/feature icon="fas fa-code" title="Reports API" %}}
-<a href="https://github.com/openreports/reports-api/blob/main/docs/api-docs.md" target="_blank">Reference Documentation</a>
-{{% /blocks/feature %}}
-
 {{% blocks/feature icon="fas fa-desktop" title="Web Console" %}}
-<a href="https://github.com/openreports/reports-api/blob/main/README.md#report-producers" target="_blank">Read More</a>
+<a href="/docs/web-console/" target="_blank">Read More</a>
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fas fa-database" title="API Aggregation" %}}
-<a href="https://github.com/openreports/reports-api/blob/main/README.md#report-consumers" target="_blank">View Consumers</a>
+{{% blocks/feature icon="fas fa-route" title="Reports Routing Service" %}}
+<a href="/docs/router" target="_blank">Read More</a>
 {{% /blocks/feature %}}
 
+{{% blocks/feature icon="fas fa-database" title="API Aggregation Service" %}}
+<a href="/docs/api-aggregation" target="_blank">Read More</a>
+{{% /blocks/feature %}}
 
 {{% /blocks/section %}}
 
