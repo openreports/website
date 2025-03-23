@@ -3,7 +3,7 @@ title: "OpenReports"
 linkTitle: "OpenReports"
 ---
 
-{{< blocks/cover title="" image_anchor="top" height="full" color="dark" >}}
+{{< blocks/cover title="" image_anchor="top" height="full" color="black" >}}
 
 <img src="/images/OpenReports-Horizontal.png" alt="OpenReports" style="max-width: 800px; width: 100%; height: auto;">
 
@@ -12,11 +12,14 @@ linkTitle: "OpenReports"
 <H1>Standardized Reporting For Kubernetes</H1>
 
 <div class="mt-5 mx-auto">
-	<a class="btn btn-lg btn-primary mr-3 mb-4" href="#about">
-		Learn More <i class="fa fa-chalkboard-teacher ml-2"></i>
+    <a class="btn btn-lg btn-primary mr-3 mb-4" href="#about">
+        Learn More <i class="fa fa-chalkboard-teacher ml-2"></i>
+    </a>
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="docs/api/">
+		Get Started <i class="fa fa-arrow-alt-circle-right ml-2 "></i>
 	</a>
 
-  <a class="btn btn-link text-info" href="#about" aria-label="Read more"><i class="fa fa-chevron-circle-down" style="font-size: 400%"></i></a>
+<a class="btn btn-link text-info" href="#about" aria-label="Read more"><i class="fa fa-chevron-circle-down" style="font-size: 400%"></i></a>
 </div>
 
 {{< /blocks/cover >}}
@@ -34,17 +37,35 @@ OpenReports provides an API and tools for managing reports in Kubernetes.
 <br/>
 
 <p style="line-height:1.5">
- OpenReports allows any Kubernetes controller, policy engine, or scanner to produce reports as a Kubernetes custom resource. Reports can then be consumed via kubectl, the OpenReports dashboard, or any other Kubernetes client. For high performance in large clusters, reports can be offloaded from etcd to a reporting database.
+ OpenReports allows any Kubernetes controller, policy engine, or scanner to produce reports as a Kubernetes custom resource. Reports can then be consumed via kubectl, the OpenReports dashboard, or any other Kubernetes client. For high performance in large clusters, reports can be offloaded from etcd to a reporting database using an API aggregation service.
 </p>
+
+<div class="mt-5 mx-auto">
+    <a class="btn btn-lg btn-primary mr-3 mb-4" href="docs/api/">
+        API Definition <i class="fa fa-arrow-alt-circle-right ml-2 "></i>
+    </a>
+</div>
 
 <br/>
 {{% /blocks/lead %}}
 
 {{% blocks/section color="dark" type="row" %}}
 
-{{% blocks/feature icon="fas fa-code" title="Reports API" %}}
-<a href="https://github.com/openreports/reports-api/blob/main/docs/api-docs.md" target="_blank">Reference Documentation</a>
+{{% blocks/feature icon="fas fa-desktop" title="Web Console" %}}
+<a href="/docs/web-console/" target="_blank">Read More</a>
 {{% /blocks/feature %}}
+
+{{% blocks/feature icon="fas fa-route" title="Reports Routing Service" %}}
+<a href="/docs/router" target="_blank">Read More</a>
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fas fa-database" title="API Aggregation Service" %}}
+<a href="/docs/api-aggregation" target="_blank">Read More</a>
+{{% /blocks/feature %}}
+
+{{% /blocks/section %}}
+
+{{% blocks/section color="gray" type="row" %}}
 
 {{% blocks/feature icon="fas fa-arrow-right" title="Report Producers" %}}
 <a href="https://github.com/openreports/reports-api/blob/main/README.md#report-producers" target="_blank">View Producers</a>
@@ -52,6 +73,10 @@ OpenReports provides an API and tools for managing reports in Kubernetes.
 
 {{% blocks/feature icon="fas fa-arrow-left" title="Report Consumers" %}}
 <a href="https://github.com/openreports/reports-api/blob/main/README.md#report-consumers" target="_blank">View Consumers</a>
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fas fa-map" title="Project Roadmap" %}}
+<a href="https://github.com/orgs/openreports/projects/1" target="_blank">View Roadmap</a>
 {{% /blocks/feature %}}
 
 {{% /blocks/section %}}
