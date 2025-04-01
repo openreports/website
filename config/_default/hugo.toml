@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "OpenReports"
 # theme = ["docsy"]
 description = "Standardized Reporting For Kubernetes"
-Paginate = 20
 
 enableRobotsTXT = true
 

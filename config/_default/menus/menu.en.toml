@@ -10,3 +10,7 @@
   weight = 300
   url = "#community"
 
+[[main]]
+  name = "Docs"
+  weight = 300
+  url = "/docs"
