@@ -9,6 +9,7 @@ linkTitle: "OpenReports"
 
 <br/>
 <br/>
+
 <H1>Standardized Reporting For Kubernetes</H1>
 
 <div class="mt-5 mx-auto">
@@ -18,8 +19,7 @@ linkTitle: "OpenReports"
 	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="docs/api/">
 		Get Started <i class="fa fa-arrow-alt-circle-right ml-2 "></i>
 	</a>
-
-<a class="btn btn-link text-info" href="#about" aria-label="Read more"><i class="fa fa-chevron-circle-down" style="font-size: 400%"></i></a>
+    <a class="btn btn-link text-info" href="#about" aria-label="Read more"><i class="fa fa-chevron-circle-down" style="font-size: 400%"></i></a>
 </div>
 
 {{< /blocks/cover >}}
@@ -28,12 +28,12 @@ linkTitle: "OpenReports"
 {{% blocks/lead color="light" %}}
 
 # About { class="text-center" }
+
 <br/>
 <br/>
 
-<h2>
-OpenReports provides an API and tools for managing reports in Kubernetes.
-</h2>
+<h2>OpenReports provides an API and tools for managing reports in Kubernetes.</h2>
+
 <br/>
 
 <p style="line-height:1.5">
@@ -47,6 +47,7 @@ OpenReports provides an API and tools for managing reports in Kubernetes.
 </div>
 
 <br/>
+
 {{% /blocks/lead %}}
 
 {{% blocks/section color="dark" type="row" %}}
@@ -84,11 +85,13 @@ OpenReports provides an API and tools for managing reports in Kubernetes.
 {{% blocks/section color="light" type="row" %}}
 
 # Community { class="text-center" }
+
 <br/>
 <br/>
 <br/>
 <br/>
-<H3>
+
+<H3 class="text-center">
 The OpenReports project is a collaborative effort from multiple CNCF projects and ecosystem companies.
 
 The Reports API was originally developed by the <a href="https://github.com/kubernetes/community/blob/master/wg-policy/README.md" target="_blank">Kubernetes Policy Working Group</a> 
